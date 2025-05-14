@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Provider store={Store}>
+    <Provider store={Store} basename="/NewReactViteRepo14-5/">
       <h2>React-Redux Add Customer</h2>
       <AddCustomer/>
       <ViewComponent/>
